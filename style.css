@@ -1,55 +1,137 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.cdnfonts.com/css/miama');
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Inter", serif;
 }
-/* font-family: 'Miama', sans-serif; */
 
-:root{
+:root {
     --primary-bg: #000000;
     --secondary-bg: #222222;
     --primary-color: #FFFFFF;
     --secondary-color: #E6533C;
 }
-body{
+
+body {
     background-color: var(--primary-bg);
 }
-.main-container{
-    width: 1140px;
+
+.main-container {
+    width: 1280px;
     margin: auto;
 }
+
 /* Navbar */
-.navbar{
+.navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
 }
-.logo h1{
+
+.logo h1 {
     font-size: 2.25rem;
     font-weight: 800;
     color: var(--secondary-color);
 }
-.menu ul{
+
+.menu ul {
     display: flex;
     gap: 1.75rem;
     border: 1px solid rgba(128, 128, 128, 0.418);
     border-radius: 40px;
     padding: 5px;
 }
-.menu ul li{
+
+.menu ul li {
     padding: 5px 18px;
     list-style: none;
 }
-.menu ul li:first-child{
+
+.menu ul li:first-child {
     background-color: #E6533C;
     border-radius: 40px;
 }
-.menu ul li a{
+
+.menu ul li a {
     text-decoration: none;
     color: var(--primary-color);
     font-weight: 400;
+}
+
+/* Hero Section */
+.hero-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2.5rem;
+    padding: 20px;
+}
+
+.hero-content {
+    padding: 10px 20px;
+    color: #FFFFFF;
+    flex: 1;
+}
+
+.hero-content h1 {
+    font-size: 4.8rem;
+    line-height: 120%;
+    color: var(--primary-color);
+    font-weight: 700;
+    margin-bottom: 1.75rem;
+}
+
+.hero-content h1 span {
+    font-family: 'Miama', sans-serif;
+    display: inline-block;
+    font-size: 10rem;
+    font-weight: normal;
+    color: #e1dace;
+}
+
+.hero-content p {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #8a8a8a;
+    margin-bottom: 1.75rem;
+}
+
+.hero-content .primary-btn {
+    background-color: var(--secondary-color);
+    border: none;
+    padding: 16px 45px;
+    border-radius: 2.6rem;
+    margin-right: 1.5rem;
+}
+
+.hero-content .primary-btn a {
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.hero-content .secondary-btn {
+    background-color: transparent;
+    border: 1px solid #fff;
+    padding: 16px 45px;
+    border-radius: 2.6rem;
+}
+
+.hero-content .secondary-btn a {
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.hero-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
 }
