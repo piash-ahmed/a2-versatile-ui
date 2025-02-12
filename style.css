@@ -200,21 +200,24 @@ body {
 }
 
 /* Habits Section */
-.habits-content{
+.habits-content {
     text-align: center;
     margin-top: 6rem;
 }
-.habits-content h1{
+
+.habits-content h1 {
     font-size: 3rem;
     font-weight: 700;
     display: inline-block;
 }
-.habits-content p{
+
+.habits-content p {
     font-size: 14px;
     color: var(--color-p);
     margin-top: 1rem;
 }
-.habits-cards{
+
+.habits-cards {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -223,19 +226,22 @@ body {
     margin-top: 3rem;
 }
 
-.card{
+.card {
     text-align: center;
     padding: 10px;
 }
-.card img{
+
+.card img {
     border-radius: 50%;
 }
-.card h3{
+
+.card h3 {
     font-size: 1.125rem;
     font-weight: 500;
     margin-top: 1.85rem;
 }
-.card p{
+
+.card p {
     font-size: 14px;
     font-weight: 500;
     color: var(--color-p);
@@ -243,7 +249,7 @@ body {
 }
 
 /* Run Extra Mile Section */
-.run-extra-container{
+.run-extra-container {
     width: 1060px;
     margin: 0 auto;
     padding: 1rem 0px;
@@ -254,30 +260,170 @@ body {
     border-radius: 1rem;
     margin-top: 6.25rem;
 }
-.run-extra-content{
+
+.run-extra-content {
     flex: 1;
     padding: 1rem 2.75rem;
 }
-.run-extra-content h1{
+
+.run-extra-content h1 {
     font-size: 3rem;
     font-weight: 800;
     color: var(--primary-color);
     margin-bottom: 14px;
 }
-.run-extra-content p{
+
+.run-extra-content p {
     font-size: 14px;
     font-weight: 500;
     color: var(--color-p);
     margin-bottom: 2rem;
 }
-.run-extra-img{
+
+.run-extra-img {
     flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 1rem;
 }
-.run-extra-img img{
+
+.run-extra-img img {
     width: 90%;
     border-radius: 1rem;
+}
+
+/* Training Section */
+.training-container {
+    width: 1060px;
+    margin: 100px auto;
+}
+
+.training-content h1 {
+    font-size: 3rem;
+    font-weight: 800;
+    color: var(--primary-color);
+    margin-bottom: 14px;
+}
+
+.training-content p {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--color-p);
+}
+
+.training-img {
+    margin-top: 3.75rem;
+    display: grid;
+    grid-template-areas:
+        "one two two three"
+        "four four five six"
+    ;
+}
+
+.t-img {
+    border: 1px solid white;
+    height: 200px;
+    position: relative;
+}
+
+.t-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.t-img-1 {
+    grid-area: one;
+    background: url("/images/exercise1.jpg") no-repeat;
+    background-size: cover;
+}
+
+.t-img-1::before {
+    content: "";
+    height: 100%;
+    width: 100%;
+    background-color: #06ffd169;
+    left: 0;
+    bottom: 0;
+    position: absolute;
+}
+
+.t-img-2 {
+    grid-area: two;
+    background: url("/images/exercise2.png") no-repeat;
+    background-size: cover;
+}
+
+.t-img-2::before {
+    content: "";
+    height: 100%;
+    width: 100%;
+    background-color: #ff000063;
+    left: 0;
+    bottom: 0;
+    position: absolute;
+}
+
+.t-img-3 {
+    grid-area: three;
+    background: url("/images/exercise3.png") no-repeat;
+    background-size: cover;
+}
+
+.t-img-3::before {
+    content: "";
+    height: 100%;
+    width: 100%;
+    background-color: #cccccc91;
+    left: 0;
+    bottom: 0;
+    position: absolute;
+}
+
+.t-img-4 {
+    grid-area: four;
+    background: url("/images/exercise4.png") no-repeat;
+    background-size: cover;
+}
+
+.t-img-4::before {
+    content: "";
+    height: 100%;
+    width: 100%;
+    background-color: #00000080;
+    left: 0;
+    bottom: 0;
+    position: absolute;
+}
+
+.t-img-5 {
+    grid-area: five;
+    background: url("/images/exercise5.jpg") no-repeat;
+    background-size: cover;
+}
+
+.t-img-5::before {
+    content: "";
+    height: 100%;
+    width: 100%;
+    background-color: #44ff005e;
+    left: 0;
+    bottom: 0;
+    position: absolute;
+}
+
+.t-img-6 {
+    grid-area: six;
+    background: url("/images/exercise6.jpg") no-repeat;
+    background-size: cover;
+}
+
+.t-img-6::before {
+    content: "";
+    height: 100%;
+    width: 100%;
+    background-color: #0048ff6b;
+    left: 0;
+    bottom: 0;
+    position: absolute;
 }
