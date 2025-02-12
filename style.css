@@ -20,6 +20,10 @@ body {
 }
 
 .main-container {
+    background: linear-gradient(90deg, rgb(41 41 41 / 56%) 0%, rgb(25 25 25 / 85%) 50%, rgb(34 34 34 / 56%) 100%);
+}
+
+header {
     width: 1280px;
     margin: auto;
 }
@@ -68,7 +72,7 @@ body {
     justify-content: space-between;
     align-items: center;
     gap: 2.5rem;
-    padding: 20px;
+    padding: 20px 20px 0px 20px;
 }
 
 .hero-content {
@@ -134,4 +138,61 @@ body {
     justify-content: center;
     align-items: center;
     flex: 1;
+    color: #fff;
+    position: relative;
+}
+
+.overley-1 {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 18px 30px;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    color: white;
+    position: absolute;
+    right: 6%;
+    top: 28%;
+}
+
+.overley-1 h1 {
+    font-size: 2rem;
+    color: var(--primary-color);
+}
+
+.overley-1 p {
+    color: #8b8b8b;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.overley-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 18px 30px;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    color: white;
+    position: absolute;
+    left: 5%;
+    bottom: 10%;
+}
+
+.overley-2 .overley-2-text h1 {
+    font-size: 2rem;
+    color: var(--primary-color);
+}
+
+.overley-2 .overley-2-text p {
+    color: #8b8b8b;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.overley-2-circle {
+    height: 35px;
+    width: 35px;
+    background-color: #E6533C;
+    border-radius: 50%;
 }
