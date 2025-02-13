@@ -672,3 +672,58 @@ td {
     font-weight: 500;
     color: var(--color-p);
 }
+
+/* Footer */
+.footer-container {
+    background-color: rgba(128, 128, 128, 0.226);
+    padding-top: 3rem;
+}
+
+.footer-wrapper {
+    width: 1060px;
+    margin: auto;
+    padding: 20px;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-top h1 {
+    font-size: 4rem;
+    font-weight: 800;
+    color: var(--secondary-color);
+    margin-bottom: 1.25rem;
+}
+
+.footer-top h2 {
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+}
+
+.footer-top p {
+    font-size: 14px;
+    color: var(--color-p);
+}
+
+.footer-top p a {
+    display: inline-block;
+    text-decoration: none;
+    color: var(--color-p);
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
+
+.footer-bottom {
+    border-top: 1px solid rgba(128, 128, 128, 0.527);
+    margin-top: 4.5rem;
+    padding: 1.75rem;
+}
+
+.footer-bottom p {
+    font-size: 14px;
+    color: var(--color-p);
+    text-align: center;
+}
