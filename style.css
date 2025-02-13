@@ -453,9 +453,11 @@ body {
     font-weight: 500;
     color: var(--color-p);
 }
-.bmi-calculator-bg{
+
+.bmi-calculator-bg {
     background-color: rgba(128, 128, 128, 0.226);
 }
+
 .calculator-wrapper {
     margin-bottom: 100px;
     display: flex;
@@ -582,4 +584,91 @@ td {
     font-weight: 500;
     color: var(--primary-color);
     text-decoration: none;
+}
+
+/* Our Team Section */
+.team-header {
+    text-align: center;
+    margin-top: 5.5rem;
+    margin-bottom: 3.6rem;
+}
+
+.team-header h1 {
+    font-size: 3rem;
+    font-weight: 800;
+    color: var(--primary-color);
+    margin-bottom: 14px;
+}
+
+.team-header p {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--color-p);
+}
+
+.team-content {
+    width: 1060px;
+    margin: 50px auto;
+    background-color: rgba(128, 128, 128, 0.226);
+    padding: 1.25rem;
+    border-radius: 1rem;
+}
+
+.team {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.box {
+    height: 272px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 18px;
+    position: relative;
+}
+
+.box-1 {
+    background-image: url("images/trainer1.png");
+}
+
+.box-2 {
+    background-image: url("images/trainer2.png");
+}
+
+.box-3 {
+    background-image: url("images/trainer3.png");
+}
+
+.box-4 {
+    background-image: url("images/trainer4.png");
+}
+
+.box-5 {
+    background-image: url("images/trainer5.png");
+}
+
+.box-5 {
+    background-image: url("images/trainer5.png");
+}
+
+.box-6 {
+    background-image: url("images/trainer6.png");
+}
+
+.info {
+    position: absolute;
+    left: 16px;
+    bottom: 36px;
+}
+
+.team h4 {
+    font-size: 1.25rem;
+}
+
+.team p {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--color-p);
 }
